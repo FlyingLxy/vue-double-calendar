@@ -20,6 +20,6 @@
   "author": "XiaoYu.Lang",
   "license": "MIT",
   "dependencies": {
-    "vue-multifunction-calendar": "^1.0.5"
+    "vue-multifunction-calendar": "^1.0.9"
   }
 }

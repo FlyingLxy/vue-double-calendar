@@ -56,11 +56,11 @@ export default {
           //...code
       },
       menuhandler: function (name) {
-	  if (name === 'today') {
+          if (name === 'today') {
               var date = new Date()
               this.begin = formatDate(date);
               this.end = formatDate(date);
-	  }
+          }
           //...code
       },
       confirm: function (obj) {

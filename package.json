@@ -1,6 +1,6 @@
 {
   "name": "vue-double-calendar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple vue double calendar. ",
   "main": "index.js",
   "scripts": {

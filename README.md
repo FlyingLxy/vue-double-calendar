@@ -38,10 +38,10 @@ export default {
     var date = new Date();
     var end = date.getTime() + 60 * 60 * 24 * 7 * 1000
     return {
-	begin: formatDate(date),
-	end: formatDate(new Date(end)),
-	menus: ['Today', 'Month', 'Quarter'],
-	isShow: true
+        begin: formatDate(date),
+        end: formatDate(new Date(end)),
+        menus: ['Today', 'Month', 'Quarter'],
+        isShow: true
     }
   },
   components: {
@@ -49,29 +49,29 @@ export default {
   },
   methods: {
       dateHandler: function (obj) {
-	  // obj.start  '2016-06-20'
-	  this.begin = obj.start;
-	  // obj.end	'2016-7-29'
-	  this.end = obj.end;
-	  //...code
+          // obj.start  '2016-06-20'
+          this.begin = obj.start;
+          // obj.end	'2016-7-29'
+          this.end = obj.end;
+          //...code
       },
       menuhandler: function (name) {
 	  if (name === 'today') {
-	      var date = new Date()
-	      this.begin = formatDate(date);
-	      this.end = formatDate(date);
+              var date = new Date()
+              this.begin = formatDate(date);
+              this.end = formatDate(date);
 	  }
-	  //...code
+          //...code
       },
       confirm: function (obj) {
-	  //obj { start: 'xxxx-xx-xx', end: 'xxxx-xx-xx'}
-	  this.isShow = false;
-	  //...code
+          //obj { start: 'xxxx-xx-xx', end: 'xxxx-xx-xx'}
+          this.isShow = false;
+          //...code
       },
       cancel: function (obj) {
-	 //obj { start: 'xxxx-xx-xx', end: 'xxxx-xx-xx'}
-	 this.isShow = false;
-	 //...code
+         //obj { start: 'xxxx-xx-xx', end: 'xxxx-xx-xx'}
+         this.isShow = false;
+         //...code
       }
   }
 }
@@ -81,15 +81,15 @@ export default {
 <template>
     <double-calendar
     	className="myCalendar"
-    	:begin="begin"
-	:end="end"
-	:menus="menus"
-	:isShow="isShow"
-	@change="dateHandler"
-	@menuHandler="menuHandler"
-	@confirm="confirmHandler"
-	@cancel="cancelHandler"
-    	>
+        :begin="begin"
+        :end="end"
+        :menus="menus"
+        :isShow="isShow"
+        @change="dateHandler"
+        @menuHandler="menuHandler"
+        @confirm="confirmHandler"
+        @cancel="cancelHandler"
+        >
     <double-calendar>
 </template>
 ```

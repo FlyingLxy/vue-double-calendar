@@ -2,10 +2,10 @@
 git: github.com/FlyingLxy/vue-double-calendar
 > A Vue.js component
 
-### install
+### Install
 > npm install vue-double-calendar --save
 
-### option
+### Option
 - **begin** String: Start Date. Default: new Date()
 - **end** String: End Date. Default: new Date()
 - **isShow** Boolean: Show Trigger. Default: true
@@ -17,7 +17,7 @@ git: github.com/FlyingLxy/vue-double-calendar
 - **cancel** CallBack: Cancel button callBack. **Param**: Object. 'start' Start date.  and 'end' End date
 
 
-### example
+### Example
 ```javascript
 // xx.vue
 // script

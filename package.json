@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "github.com/FlyingLxy/vue-double-calendar"
-  },
+  "repository": "github.com/FlyingLxy/vue-double-calendar",
   "keywords": [
     "vue",
     "calendar",
